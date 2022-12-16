@@ -1,0 +1,6 @@
+[submodule "src/ademkocamaz.github.io"]
+	path = src/ademkocamaz.github.io
+	url = https://github.com/ademkocamaz/ademkocamaz.github.io.git
+[submodule "src/electron-quick-start"]
+	path = src/electron-quick-start
+	url = https://github.com/ademkocamaz/electron-quick-start.git

@@ -1,0 +1,33 @@
+{
+  "name": "electron-ademkocamaz.github.io",
+  "version": "1.0.0",
+  "description": "Electron App for ademkocamaz.github.io",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ademkocamaz/electron-ademkocamaz.github.io.git"
+  },
+  "author": "Adem Kocamaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ademkocamaz/electron-ademkocamaz.github.io/issues"
+  },
+  "homepage": "https://github.com/ademkocamaz/electron-ademkocamaz.github.io#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}

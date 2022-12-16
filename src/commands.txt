@@ -1,0 +1,18 @@
+cd src
+git submodule add https://github.com/ademkocamaz/ademkocamaz.github.io.git
+git submodule add https://github.com/ademkocamaz/electron-quick-start.git
+git submodule --help
+cd ..
+cd dist
+cls
+ls
+cls
+dir
+cls
+npm init
+npm install --save-dev electron
+npm start
+npm install --save-dev @electron-forge/cli
+npx electron-forge import
+cd ..\src
+doskey /h > commands.txt
