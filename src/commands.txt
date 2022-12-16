@@ -16,3 +16,12 @@ npm install --save-dev @electron-forge/cli
 npx electron-forge import
 cd ..\src
 doskey /h > commands.txt
+cd ..\dist
+dir
+npm run make
+npm start
+electron .
+npm start
+cd ..
+cd src
+doskey /h > commands.txt
